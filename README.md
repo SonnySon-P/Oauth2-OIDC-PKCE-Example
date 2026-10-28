@@ -9,11 +9,23 @@ II. Development Environment
 - Editor / IDE: Visual Studio Code
 
 III. Dependencies
-- Cryptography: It is a cryptographic library that provides many ready-to-use and secure cryptographic algorithms.
+1. Authentication Server
+Flask: A lightweight and flexible WSGI web framework.
+PyJWT: A Python library used for generating, signing, decoding, and verifying JSON Web Tokens (JWT).
+cryptography: A robust cryptographic library.
+
+3. Demo Website
+Flask: A lightweight and flexible WSGI web framework.
+PyJWT: A Python library used for generating, signing, decoding, and verifying JSON Web Tokens (JWT).
+httpx: A modern HTTP client used to securely send backend-to-backend requests.
 
 IV. Operating Steps
+1. Authorization Initiation
 
-1. Generate an Ed25519 public-private key pair in OpenSSH format.
-2. Deploy server.py and client.py on two separate computers, and modify the IP address and port in the code according to the network environment.
-3. Configure the Ed25519 public key on the Server and the corresponding private key on the Client.
-4. Run the programs on their respective computers.
+The Demo Website generates security parameters, temporarily saves them, and redirects the browser to the Authorization Server.
+
+2. Authentication & Authorization Code Issuance
+3. 
+The Authorization Server checks the user's authentication status. Upon successful authentication, it generates a short-lived, single-use authorization code, stores the relevant verification parameters in the database, and redirects the browser back to the Demo Website.
+
+
