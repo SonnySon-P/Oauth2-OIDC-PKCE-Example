@@ -35,13 +35,22 @@ IV. Operational Process
 - Upon successful verification, it clears the temporary security parameters, writes user data to the application session, completes the login process, and renders the success page.
 
 V. Results
+1. Client Login Page
 <br>
   <div align="center">
-  	<img src="./screenshot_1.png" alt="Editor" width="500">
+  	<img src="./Screenshot_1.png" alt="Editor" width="500">
   </div>
 <br>
 <br>
+
+2. Authentication Login Page
 <div align="center">
-  	<img src="./screenshot_2.png" alt="Editor" width="500">
+  	<img src="./Screenshot_2.png" alt="Editor" width="500">
+  </div>
+<br>
+
+3. Client Login Success Page
+<div align="center">
+  	<img src="./Screenshot_3.png" alt="Editor" width="500">
   </div>
 <br>
