@@ -34,4 +34,14 @@ IV. Operational Process
 - The Demo Website fetches the JWKS from the Authorization Server and uses PyJWT to strictly verify the digital signature, exp, iss, aud, and nonce.
 - Upon successful verification, it clears the temporary security parameters, writes user data to the application session, completes the login process, and renders the success page.
 
-
+V. Results
+<br>
+  <div align="center">
+  	<img src="./screenshot_1.png" alt="Editor" width="500">
+  </div>
+<br>
+<br>
+<div align="center">
+  	<img src="./screenshot_2.png" alt="Editor" width="500">
+  </div>
+<br>
